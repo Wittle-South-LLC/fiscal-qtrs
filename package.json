@@ -70,5 +70,8 @@
     "sourceMap": false,
     "instrument": false
   },
-  "dependencies": {}
+  "dependencies": {},
+  "publishConfig":{
+    "registry": "http://npm.wittlesouth.local"
+  }
 }

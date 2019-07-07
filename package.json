@@ -1,8 +1,8 @@
 {
   "name": "fiscal-qtrs",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "Provide string representations of calendar & fiscal quarter based on a date",
-  "main": "dist/cli.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "babel src --out-dir dist",
     "test": "NODE_ENV=test mocha --require @babel/register tests",
@@ -72,6 +72,6 @@
   },
   "dependencies": {},
   "publishConfig":{
-    "registry": "http://npm.wittlesouth.local"
+    "registry": "https://npm.wittlesouth.com"
   }
 }

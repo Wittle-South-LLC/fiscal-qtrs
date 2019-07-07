@@ -1,0 +1,5 @@
+# Ignore local packages
+src/
+tests/
+coverage/
+.nyc_output/

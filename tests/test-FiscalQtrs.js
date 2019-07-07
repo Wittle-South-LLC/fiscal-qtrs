@@ -1,6 +1,6 @@
 import { describe, it } from 'mocha'
 import chai from 'chai'
-import { FiscalQtrs } from '../src/FiscalQtrs'
+import { FiscalQtrs } from '../dist/FiscalQtrs'
 
 describe('FiscalQtrs Core Functions', () => {
   it('Creates successfully', () => {

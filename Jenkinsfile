@@ -19,7 +19,7 @@ pipeline {
       body: "Build failed: ${env.BUILD_URL}"
     }
     always {
-      cleanWs()
+      deleteDir()
     }
   }
 }

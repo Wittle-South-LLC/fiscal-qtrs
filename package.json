@@ -6,7 +6,7 @@
   "scripts": {
     "build": "babel src --out-dir dist",
     "test": "NODE_ENV=test mocha --require @babel/register tests",
-    "cover": "NODE_ENV=test nyc _mocha --require @babel/register tests",
+    "cover": "NODE_ENV=test nyc --reporter=html --reporter=text mocha tests",
     "gen": "babel-node src/cli.js"
   },
   "repository": {
@@ -25,11 +25,11 @@
   },
   "homepage": "https://github.com/Wittle-South-LLC/fiscal-qtrs#readme",
   "devDependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.4.5",
-    "@babel/node": "^7.4.5",
-    "@babel/plugin-proposal-class-properties": "^7.4.4",
-    "@babel/preset-env": "^7.4.5",
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/node": "^7.5.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
     "@babel/register": "^7.4.4",
     "babel-plugin-istanbul": "^5.1.4",
     "chai": "^4.2.0",
@@ -71,7 +71,7 @@
     "instrument": false
   },
   "dependencies": {},
-  "publishConfig":{
+  "publishConfig": {
     "registry": "https://npm.wittlesouth.com"
   }
 }
